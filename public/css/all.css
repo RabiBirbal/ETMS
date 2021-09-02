@@ -1,0 +1,67 @@
+/*aboutus image zoom*/
+.aboutusImage{
+  overflow: hidden;
+}
+
+.aboutusImage img{
+  transition: all 1.2s ease;
+}
+
+.aboutusImage:hover img{
+  transform: scale(1.2);
+}
+
+.ab{
+  overflow: hidden;
+}
+
+.ab img{
+  transition: all 1.2s ease;
+}
+
+.ab:hover img{
+  transform: scale(1.2);
+}
+
+/*contact us*/
+.form-group label{
+	font-size: 22px;
+	color: #45f3ff;
+}
+.form-group input{
+	font-size: 20px;
+}
+.form-group textarea{
+	font-size: 20px;
+}
+.btn{
+	padding-top: 1%;
+	padding-left: 3%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+	font-size: 20px;
+	color: #fff;
+	background-color: #2196f3;
+	font-family: vermin;
+}
+.btn:hover{
+	background-color: #3d3d3d;
+	color: #fff;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+/*result*/
+.card ul{
+	display: inline-block;
+}
+
+.cardImg{
+	width: 250px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.cardTitle{
+	display: flex;
+	justify-content: flex-end;
+}
